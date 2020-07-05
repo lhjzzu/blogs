@@ -218,9 +218,10 @@ Stack(
 
 ### flutter热重载
 
++ [Flutter 的 Hot Reload 是如何做到的](https://blog.csdn.net/csdnsevenn/article/details/103077369)
++ [揭秘Flutter Hot Reload（原理篇)](https://www.jianshu.com/p/69c96cefc810?tdsourcetag=s_pctim_aiomsg)
+
 Flutter的热重载(hot reload)功能可以帮助您在无需重新启动应用的情况下快速、轻松地进行测试、构建用户界面、添加功能以及修复错误。 通过将更新后的源代码文件注入正在运行的Dart虚拟机（VM）中来实现热重载。在虚拟机使用新的的字段和函数更新类后，Flutter框架会自动重新构建widget树，以便您快速查看更改的效果。
-
-
 
 编译模式大体可以分为两种，AOT编译与JIT编译。JIT全称是Just In Time，代码可以在程序执行时期编译，因为要在程序执行前进行分析、编译，JIT编译可能会导致程序执行时间较慢；而AOT编译，全称Ahead Of Time，是在程序运行前就已经编译，从开发者修改代码、编译较慢，但运行时不需要进行分析、编译，因此执行速度更快。
 
